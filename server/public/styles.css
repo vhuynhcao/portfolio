@@ -1,0 +1,47 @@
+body{
+  background-color: #333A40;
+  color: white;
+}
+
+.header {
+  height: 5vh;
+}
+
+.banner{
+  background-image: url(images/banner-img.jpg);
+  height: 90vh;
+  background-size: cover;
+  background-position: 0% 65%;
+}
+
+.dev-icon{
+  font-size: 6rem;
+}
+
+.contact-info{
+  font-size: 1.25rem;
+}
+
+.link-icon{
+  font-size: 1.20rem;
+  border: 3px solid;
+  padding: 4px;
+  border-radius: 15px;
+}
+
+@media screen and (max-height: 400px){
+  .header{
+    height: 8vh;
+  }
+
+  .banner{
+    height: 80vh;
+  }
+}
+
+@media screen and (max-width: 400px){
+  .banner{
+    height: 88vh;
+    background-position: 17%;
+  }
+}
