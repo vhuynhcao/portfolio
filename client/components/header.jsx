@@ -2,7 +2,21 @@ import React from 'react';
 
 class Header extends React.Component {
   render() {
-    return null;
+    return (
+      <>
+        <nav className="navbar navbar-dark bg-dark text-light">
+          <div></div>
+          <div className="float-right d-flex justify-content-between">
+            <i className="fas fa-circle mr-2"></i>
+            <i className="fas fa-circle mr-2"> </i>
+            <i className="fas fa-circle mr-2"> </i>
+            <i className="fas fa-circle mr-2"> </i>
+            <i className="fas fa-circle mr-2"> </i>
+            <i className="fas fa-circle"></i>
+          </div>
+        </nav>
+      </>
+    );
   }
 }
 
