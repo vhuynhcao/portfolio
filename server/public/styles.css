@@ -1,0 +1,10 @@
+.header {
+  height: 5vh;
+}
+
+
+@media screen and (max-width: 700px) and (max-height: 400px){
+  .header{
+    height: 8vh;
+  }
+}
