@@ -18,6 +18,17 @@ body{
   font-size: 6rem;
 }
 
+.contact-info{
+  font-size: 1.25rem;
+}
+
+.link-icon{
+  font-size: 1.20rem;
+  border: 3px solid;
+  padding: 4px;
+  border-radius: 15px;
+}
+
 @media screen and (max-height: 400px){
   .header{
     height: 8vh;
