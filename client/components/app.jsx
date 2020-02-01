@@ -3,6 +3,7 @@ import Header from './header';
 import Banner from './banner';
 import AboutMe from './about-me';
 import Skills from './skills';
+import Tools from './tools';
 
 class App extends React.Component {
   render() {
@@ -12,6 +13,7 @@ class App extends React.Component {
         <Banner/>
         <AboutMe/>
         <Skills/>
+        <Tools/>
       </>
     );
   }

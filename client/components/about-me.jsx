@@ -8,7 +8,7 @@ class AboutMe extends React.Component {
     };
     return (
       <>
-        <h1 className="text-center mb-5">About Me</h1>
+        <h1 className="text-center mb-5 mt-5">About Me</h1>
         <div className="container container-md mb-5">
           <div className="row">
             <div className="col-md-4"><img style={imgSize} src="/images/profile-pic.png" /></div>
