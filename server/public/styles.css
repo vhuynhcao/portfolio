@@ -59,6 +59,12 @@ body{
   box-shadow: 0 8px 6px -6px black;
 }
 
+.name-text{
+  font-size: 5rem;
+  margin-top: 20%;
+  margin-right: 6%;
+}
+
 @media screen and (max-height: 400px){
   .header{
     height: 8vh;
