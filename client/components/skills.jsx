@@ -3,7 +3,7 @@ import React from 'react';
 class Skills extends React.Component {
   render() {
     return (
-      <>
+      <div>
         <h1 className="text-center mb-5 mt-5">Technical Skills</h1>
         <div className="container container-md dev-icon mb-5">
           <div className="row d-flex justify-content-between mb-5">
@@ -19,7 +19,7 @@ class Skills extends React.Component {
             <i className="devicon-bootstrap-plain-wordmark"></i>
           </div>
         </div>
-      </>
+      </div>
     );
   }
 }

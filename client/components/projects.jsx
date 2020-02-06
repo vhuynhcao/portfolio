@@ -4,8 +4,8 @@ class Projects extends React.Component {
   render() {
 
     return (
-      <>
-        <h1 className="text-center mb-5">Projects</h1>
+      <div className="bg-dark project">
+        <h1 className="text-center text-light pt-3 mb-5">Projects</h1>
         <div className="container mb-5 d-flex">
           <div className="col-md-4">
             <div className="card bg-secondary text-center">
@@ -123,7 +123,7 @@ class Projects extends React.Component {
             </div>
           </div>
         </div>
-      </>
+      </div>
     );
   }
 }

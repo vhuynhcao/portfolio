@@ -1,6 +1,5 @@
 body{
-  background-color: #333A40;
-  color: white;
+  color: #333A40;
 }
 
 .header {
@@ -23,10 +22,7 @@ body{
 }
 
 .link-icon{
-  font-size: 1.20rem;
-  border: 3px solid;
-  padding: 4px;
-  border-radius: 15px;
+  font-size: 1.7rem;
 }
 
 .image-size{
@@ -34,6 +30,18 @@ body{
   object-fit: contain;
   margin: auto;
   border-radius: 5px;
+}
+
+.about-me{
+  height: 55vh;
+}
+
+.project{
+  height: 75vh;
+}
+
+.tools{
+  height: 65vh;
 }
 
 @media screen and (max-height: 400px){
