@@ -29,6 +29,13 @@ body{
   border-radius: 15px;
 }
 
+.image-size{
+  max-width: 200px;
+  object-fit: contain;
+  margin: auto;
+  border-radius: 5px;
+}
+
 @media screen and (max-height: 400px){
   .header{
     height: 8vh;
