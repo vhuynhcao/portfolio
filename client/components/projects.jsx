@@ -4,8 +4,8 @@ class Projects extends React.Component {
   render() {
 
     return (
-      <div className="bg-dark project text-light">
-        <h1 className="text-center pt-3 mb-5">Projects</h1>
+      <div className="project bg-light text-dark">
+        <h1 className="text-center pt-5 mb-5">Projects</h1>
         <div className="container mb-5 d-flex">
           <div className="col-md-4">
             <div className="card box-shadow bg-secondary text-center">
@@ -13,7 +13,7 @@ class Projects extends React.Component {
                 src="/images/memory.png"
                 className="card-img-top image-size mt-3"
               />
-              <div className="card-body">
+              <div className="card-body text-light">
                 <h5 className="card-title">One Piece Memory Match</h5>
                 <p className="card-text">
                   A memory match game that is based on the popular Japanese
@@ -52,7 +52,7 @@ class Projects extends React.Component {
                 src="/images/simply.png"
                 className="card-img-top image-size mt-3"
               />
-              <div className="card-body">
+              <div className="card-body text-light">
                 <h5 className="card-title">Simply Creative</h5>
                 <p className="card-text">
                   A full stack web application developed for crafters. Developed
@@ -90,7 +90,7 @@ class Projects extends React.Component {
                 src="/images/spontaneously.png"
                 className="card-img-top image-size mt-3"
               />
-              <div className="card-body">
+              <div className="card-body text-light">
                 <h5 className="card-title">Spontaneous.ly</h5>
                 <p className="card-text">
                   A full stack web application developed for anyone feeling
