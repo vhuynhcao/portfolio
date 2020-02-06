@@ -3,8 +3,8 @@ import React from 'react';
 class Tools extends React.Component {
   render() {
     return (
-      <>
-        <h1 className="text-center mb-5 mt-5">Tools</h1>
+      <div className="bg-dark text-light tools">
+        <h1 className="text-center mb-5 pt-3">Tools</h1>
         <div className="container container-md mb-5 dev-icon">
           <div className="row d-flex justify-content-between mb-5">
             <i className="devicon-github-plain-wordmark"></i>
@@ -25,7 +25,7 @@ class Tools extends React.Component {
             <i className="devicon-webpack-plain"></i>
           </div>
         </div>
-      </>
+      </div>
     );
   }
 }
