@@ -1,6 +1,6 @@
 body{
-   background-color: #333A40;
-   color: white;
+  background-color: #333A40;
+  color: white;
 }
 
 .header {
@@ -73,7 +73,9 @@ body{
   .banner{
     height: 88vh;
     background-position: 17%;
-    -webkit-clip-path: none;
-    clip-path: none;
+  }
+
+  .about-me {
+    height: 80vh;
   }
 }

@@ -4,7 +4,7 @@ class AboutMe extends React.Component {
   render() {
     const imgSize = {
       maxHeight: '200px',
-      contain: 'content'
+      objectFit: 'contain'
     };
     return (
       <div className="about-me">
