@@ -10,20 +10,29 @@ class Contact extends React.Component {
           <div className="d-flex justify-content-center mb-3 contact-info">
             <i className="fas fa-map-marked-alt mr-2"></i>
             <span className="mr-5">Orange County, CA</span>
-            <i className="fas fa-mobile-alt mr-2"></i>
-            <span className="mr-5">&#40;714&#41; 705-9576</span>
-            <i className="fas fa-at mr-2"></i>
-            <span>vickyhuynhcao&#64;gmail&#46;com</span>
+            <a className="text-white" href="tel:1-714-705-9576">
+              <i className="fas fa-mobile-alt mr-2"></i>
+              <span className="mr-5">&#40;714&#41; 705-9576</span>
+            </a>
+            <a
+              className="text-white"
+              href="mailto:vickyhuynhcao@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fas fa-at mr-2"></i>
+              <span>vickyhuynhcao&#64;gmail&#46;com</span>
+            </a>
           </div>
 
-          <div className="d-flex justify-content-center align-items-center">
+          <div className="container d-flex justify-content-center align-items-center">
             <a
               className="text-white"
               href="https://github.com/vhuynhcao"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i className="devicon-github-plain mr-2 link-icon"></i>
+              <i className="devicon-github-plain mr-2 link-icon"/>
             </a>
             <a
               className="text-white"
@@ -31,7 +40,7 @@ class Contact extends React.Component {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i className="fab fa-linkedin mr-2 link-icon"></i>
+              <i className="fab fa-linkedin mr-2 link-icon"/>
             </a>
             <a
               className="text-white"
@@ -39,7 +48,7 @@ class Contact extends React.Component {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i className="fas fa-file link-icon"></i>
+              <i className="fas fa-file link-icon"/>
             </a>
           </div>
         </div>
