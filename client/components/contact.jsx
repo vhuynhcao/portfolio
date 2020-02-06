@@ -32,7 +32,7 @@ class Contact extends React.Component {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i className="devicon-github-plain mr-2 link-icon"/>
+              <i className="devicon-github-plain mr-3 link-icon" />
             </a>
             <a
               className="text-dark"
@@ -40,7 +40,7 @@ class Contact extends React.Component {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i className="fab fa-linkedin mr-2 link-icon"/>
+              <i className="fab fa-linkedin mr-3 link-icon" />
             </a>
             <a
               className="text-dark"
@@ -48,7 +48,7 @@ class Contact extends React.Component {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i className="fas fa-file link-icon"/>
+              <i className="fas fa-file-pdf link-icon"/>
             </a>
           </div>
         </div>

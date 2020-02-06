@@ -4,11 +4,11 @@ class Projects extends React.Component {
   render() {
 
     return (
-      <div className="bg-dark project">
-        <h1 className="text-center text-light pt-3 mb-5">Projects</h1>
+      <div className="bg-dark project text-light">
+        <h1 className="text-center pt-3 mb-5">Projects</h1>
         <div className="container mb-5 d-flex">
           <div className="col-md-4">
-            <div className="card bg-secondary text-center">
+            <div className="card box-shadow bg-secondary text-center">
               <img
                 src="/images/memory.png"
                 className="card-img-top image-size mt-3"
@@ -21,7 +21,7 @@ class Projects extends React.Component {
                   CSS3, JavaScript,and Bootstrap.
                 </p>
                 <div className="card-text">
-                  <div className="btn bg-white mr-3">
+                  <div className="btn bg-white mr-3 box-shadow">
                     <a
                       className="text-dark"
                       href="https://github.com/vhuynhcao/one-piece-memory-match"
@@ -31,7 +31,7 @@ class Projects extends React.Component {
                       <i className="fab fa-github"></i> GitHub
                     </a>
                   </div>
-                  <div className="btn bg-white">
+                  <div className="btn box-shadow bg-white">
                     <a
                       className="text-dark"
                       href="https://memorymatch.vn-codes.com/"
@@ -47,7 +47,7 @@ class Projects extends React.Component {
           </div>
 
           <div className="col-md-4">
-            <div className="card bg-secondary text-center">
+            <div className="card box-shadow bg-secondary text-center">
               <img
                 src="/images/simply.png"
                 className="card-img-top image-size mt-3"
@@ -59,7 +59,7 @@ class Projects extends React.Component {
                   with React.js, HTML5, CSS3, PHP, MySQL, and Bootstrap.
                 </p>
                 <div className="card-text">
-                  <div className="btn bg-white mr-3">
+                  <div className="btn box-shadow bg-white mr-3">
                     <a
                       className="text-dark"
                       href="https://github.com/vhuynhcao/simply-creative"
@@ -69,7 +69,7 @@ class Projects extends React.Component {
                       <i className="fab fa-github"></i> GitHub
                     </a>
                   </div>
-                  <div className="btn bg-white">
+                  <div className="btn box-shadow bg-white">
                     <a
                       className="text-dark"
                       href="https://simplycreative.vn-codes.com/"
@@ -85,7 +85,7 @@ class Projects extends React.Component {
           </div>
 
           <div className="col-md-4">
-            <div className="card bg-secondary text-center">
+            <div className="card box-shadow bg-secondary text-center">
               <img
                 src="/images/spontaneously.png"
                 className="card-img-top image-size mt-3"
@@ -98,7 +98,7 @@ class Projects extends React.Component {
                   and Bootstrap.
                 </p>
                 <div className="card-text">
-                  <div className="btn bg-white mr-3">
+                  <div className="btn box-shadow bg-white mr-3">
                     <a
                       className="text-dark"
                       href="https://github.com/kevinakahoshi/spontaneous.ly"
@@ -108,7 +108,7 @@ class Projects extends React.Component {
                       <i className="fab fa-github"></i> GitHub
                     </a>
                   </div>
-                  <div className="btn bg-white">
+                  <div className="btn box-shadow bg-white">
                     <a
                       className="text-dark"
                       href="https://spontaneouslyapp.com/"

@@ -4,9 +4,8 @@ class Header extends React.Component {
   render() {
     return (
       <>
-        <nav className="navbar navbar-dark bg-dark text-light header sticky-top">
-          <div></div>
-          <div className="float-right d-flex justify-content-between">
+        <nav className="navbar navbar-dark bg-dark text-light header sticky-top shadow">
+          <div className="d-flex justify-content-between">
             <i className="fas fa-circle mr-2"></i>
             <i className="fas fa-circle mr-2"> </i>
             <i className="fas fa-circle mr-2"> </i>
