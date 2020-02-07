@@ -9,7 +9,7 @@ class AboutMe extends React.Component {
     return (
       <div className="about-me">
         <div className="container container-md mb-5">
-          <h1 className="text-center mb-5 pt-5">About Me</h1>
+          <div className="text-center mb-5 pt-5 font-vellesa">About Me</div>
           <div className="row">
             <div className="col-md-4">
               <img style={imgSize} src="/images/profile-pic.png" />

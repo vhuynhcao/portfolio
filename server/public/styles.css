@@ -2,6 +2,7 @@
   font-family: Vellesa;
   src: url(/Vellesa.otf);
 }
+
 body{
   background-color: #333A40;
   color: white;
@@ -9,6 +10,11 @@ body{
 
 .header {
   height: 5vh;
+}
+
+.font-vellesa{
+  font-family: Vellesa;
+  font-size: 3.5rem;
 }
 
 .banner{

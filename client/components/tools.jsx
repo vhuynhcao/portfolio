@@ -4,7 +4,7 @@ class Tools extends React.Component {
   render() {
     return (
       <div className="bg-light text-dark tools">
-        <h1 className="text-center mb-5 pt-5">Tools</h1>
+        <div className="text-center mb-5 pt-5 font-vellesa">Tools</div>
         <div className="container container-md mb-5 dev-icon">
           <div className="row d-flex justify-content-between mb-5">
             <i className="devicon-github-plain-wordmark"></i>

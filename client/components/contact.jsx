@@ -4,7 +4,7 @@ class Contact extends React.Component {
   render() {
     return (
       <div className="text-light">
-        <h1 className="text-center mb-5 pt-3">Contact Me</h1>
+        <div className="text-center mb-5 pt-3 font-vellesa">Contact Me</div>
 
         <div className="container container-md">
           <div className="d-flex justify-content-center pb-5 contact-info">
@@ -48,7 +48,7 @@ class Contact extends React.Component {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i className="fas fa-file-pdf link-icon"/>
+              <i className="fas fa-file-pdf link-icon" />
             </a>
           </div>
         </div>

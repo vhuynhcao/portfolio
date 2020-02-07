@@ -5,7 +5,7 @@ class Projects extends React.Component {
 
     return (
       <div className="project bg-light text-dark">
-        <h1 className="text-center pt-5 mb-5">Projects</h1>
+        <div className="text-center pt-5 mb-5 font-vellesa">Projects</div>
         <div className="container mb-5 d-flex">
           <div className="col-md-4">
             <div className="card box-shadow bg-secondary text-center">

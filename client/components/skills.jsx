@@ -4,7 +4,9 @@ class Skills extends React.Component {
   render() {
     return (
       <div className="skills">
-        <h1 className="text-center mb-5 pt-5">Technical Skills</h1>
+        <div className="text-center mb-5 pt-5 font-vellesa">
+          Technical Skills
+        </div>
         <div className="container container-md dev-icon mb-5">
           <div className="row d-flex justify-content-between mb-5">
             <i className="devicon-html5-plain-wordmark"></i>
