@@ -71,10 +71,6 @@ body{
     height: 8vh;
   }
 
-  .banner{
-    height: 80vh;
-  }
-
   .name-text {
     font-size: 3.5rem;
     margin-top: 5%;
@@ -88,11 +84,15 @@ body{
   .about-me{
     text-align: center;
   }
+
+  .project {
+    -webkit-clip-path: polygon(0 0, 100% 2%, 100% 97%, 0 100%);
+    clip-path: polygon(0 0, 100% 2%, 100% 97%, 0 100%);
+  }
 }
 
 @media screen and (max-width: 400px){
   .banner{
-    height: 88vh;
     background-position: 17%;
   }
 
@@ -107,6 +107,11 @@ body{
 
   .about-me {
     text-align: center;
+  }
+
+  .project {
+    -webkit-clip-path: polygon(0 0, 100% 2%, 100% 97%, 0 100%);
+    clip-path: polygon(0 0, 100% 2%, 100% 97%, 0 100%);
   }
 }
 
