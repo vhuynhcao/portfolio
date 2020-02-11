@@ -84,6 +84,10 @@ body{
   .dev-icon {
     font-size: 2rem;
   }
+
+  .about-me{
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 400px){
@@ -99,6 +103,10 @@ body{
 
   .dev-icon {
     font-size: 2rem;
+  }
+
+  .about-me {
+    text-align: center;
   }
 }
 
