@@ -27,7 +27,7 @@ body{
 }
 
 .dev-icon{
-  font-size: 2rem;
+  font-size: 5rem;
 }
 
 .contact-info{
@@ -45,24 +45,14 @@ body{
   border-radius: 5px;
 }
 
-.about-me{
-  height: 55vh;
-}
-
 .project{
-  height: 85vh;
-  -webkit-clip-path: polygon(0 0, 100% 9%, 100% 90%, 0 100%);
-  clip-path: polygon(0 0, 100% 9%, 100% 90%, 0 100%);
-}
-
-.skills{
-  height: 55vh;
+  -webkit-clip-path: polygon(0 0, 100% 7%, 100% 95%, 0 100%);
+  clip-path: polygon(0 0, 100% 7%, 100% 95%, 0 100%);
 }
 
 .tools{
-  height: 75vh;
-  -webkit-clip-path: polygon(0 0, 100% 8%, 100% 90%, 0 100%);
-  clip-path: polygon(0 0, 100% 8%, 100% 90%, 0 100%);
+  -webkit-clip-path: polygon(0 0, 100% 11%, 100% 90%, 0 100%);
+  clip-path: polygon(0 0, 100% 11%, 100% 90%, 0 100%);
 }
 
 .box-shadow{
@@ -84,6 +74,10 @@ body{
   .banner{
     height: 80vh;
   }
+
+  .dev-icon {
+    font-size: 2rem;
+  }
 }
 
 @media screen and (max-width: 400px){
@@ -92,7 +86,7 @@ body{
     background-position: 17%;
   }
 
-  .about-me {
-    height: 80vh;
+  .dev-icon {
+    font-size: 2rem;
   }
 }
