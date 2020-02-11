@@ -5,8 +5,8 @@ class Tools extends React.Component {
     return (
       <div className="bg-light text-dark tools my-3 py-5">
         <div className="text-center font-vellesa">Tools</div>
-        <div className="container dev-icon">
-          <div className="container d-flex flex-wrap justify-content-between mb-5">
+        <div className="dev-icon">
+          <div className="container text-center d-flex flex-wrap justify-content-between mb-5">
             <i className="devicon-github-plain-wordmark"></i>
             <i className="devicon-photoshop-line"></i>
             <i className="devicon-amazonwebservices-plain-wordmark"></i>
@@ -15,7 +15,7 @@ class Tools extends React.Component {
             <i className="devicon-babel-plain"></i>
           </div>
 
-          <div className="container d-flex flex-wrap justify-content-between">
+          <div className="container text-center d-flex flex-wrap justify-content-between">
             <i className="devicon-visualstudio-plain"></i>
             <i className="fab fa-npm"></i>
             <i className="devicon-docker-plain-wordmark"></i>
