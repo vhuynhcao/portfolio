@@ -7,7 +7,7 @@ class Skills extends React.Component {
         <div className="text-center font-vellesa">
           Technical Skills
         </div>
-        <div className="container d-flex flex-wrap justify-content-between dev-icon mb-5">
+        <div className="container text-center d-flex flex-wrap justify-content-between dev-icon mb-5">
           <i className="devicon-html5-plain-wordmark"></i>
           <i className="devicon-css3-plain-wordmark"></i>
           <i className="devicon-javascript-plain"></i>

@@ -19,13 +19,13 @@ class Projects extends React.Component {
                 src="/images/memory.png"
               />
               <div className="card-body text-light">
-                <h5 className="card-title">One Piece Memory Match</h5>
+                <h5 className="card-title">Memory Match</h5>
                 <div className="card-text mb-2">
                   A memory match game that is based on the popular Japanese
                   series &#34;One Piece&#34;. Developed with jQuery, HTML5,
                   CSS3, JavaScript,and Bootstrap.
                 </div>
-                <div className="card-text">
+                <div className="card-text d-flex justify-content-center">
                   <div className="btn bg-white mr-3 shadow">
                     <a
                       className="text-dark"
@@ -64,7 +64,7 @@ class Projects extends React.Component {
                   A full stack web application developed for crafters. Developed
                   with React.js, HTML5, CSS3, PHP, MySQL, and Bootstrap.
                 </div>
-                <div className="card-text">
+                <div className="card-text d-flex justify-content-center">
                   <div className="btn bg-white mr-3 shadow">
                     <a
                       className="text-dark"
@@ -104,7 +104,7 @@ class Projects extends React.Component {
                   adventurous. Developed with React.js, HTML5, CSS3, PHP, MySQL,
                   and Bootstrap.
                 </div>
-                <div className="card-text">
+                <div className="card-text d-flex justify-content-center">
                   <div className="btn bg-white mr-3 shadow">
                     <a
                       className="text-dark"
