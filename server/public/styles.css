@@ -75,6 +75,12 @@ body{
     height: 80vh;
   }
 
+  .name-text {
+    font-size: 3.5rem;
+    margin-top: 5%;
+    margin-right: 2%;
+  }
+
   .dev-icon {
     font-size: 2rem;
   }
@@ -84,6 +90,11 @@ body{
   .banner{
     height: 88vh;
     background-position: 17%;
+  }
+
+  .name-text {
+    font-size: 3.5rem;
+    margin-top: 6%;
   }
 
   .dev-icon {
