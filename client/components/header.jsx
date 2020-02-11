@@ -5,7 +5,10 @@ class Header extends React.Component {
     return (
       <>
         <nav className="navbar navbar-dark bg-dark text-light header sticky-top box-shadow">
-          <div className="d-flex justify-content-between">
+          <div className="header-font">
+            VH
+          </div>
+          <div className="d-flex float-right justify-content-between">
             <i className="fas fa-circle mr-2"></i>
             <i className="fas fa-circle mr-2"> </i>
             <i className="fas fa-circle mr-2"> </i>

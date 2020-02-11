@@ -12,6 +12,11 @@ body{
   height: 5vh;
 }
 
+.header-font{
+  font-family: Vellesa;
+  font-size: 1.5rem;
+}
+
 .font-vellesa{
   font-family: Vellesa;
   font-size: 3.5rem;
