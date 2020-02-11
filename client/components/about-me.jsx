@@ -7,15 +7,14 @@ class AboutMe extends React.Component {
       objectFit: 'contain'
     };
     return (
-      <div className="about-me">
-        <div className="container container-md mb-5">
-          <div className="text-center mb-5 pt-5 font-vellesa">About Me</div>
-          <div className="row">
-            <div className="col-md-4">
-              <img style={imgSize} src="/images/profile-pic.png" />
-            </div>
-            <div className="col-md-8">
-              <p>
+      <div className="container about-me mb-5">
+        <div className="text-center mb-5 pt-5 font-vellesa">About Me</div>
+        <div className="row">
+          <div className="col-md-4">
+            <img style={imgSize} src="/images/profile-pic.png" />
+          </div>
+          <div className="col-md-8">
+            <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -23,8 +22,7 @@ class AboutMe extends React.Component {
                 in reprehenderit in voluptate velit esse cillum dolore eu fugiat
                 nulla pariatur. Excepteur sint occaecat cupidatat non proident,
                 sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </p>
-            </div>
+            </p>
           </div>
         </div>
       </div>
