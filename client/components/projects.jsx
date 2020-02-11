@@ -2,26 +2,31 @@ import React from 'react';
 
 class Projects extends React.Component {
   render() {
+    const imgSize = {
+      maxHeight: '200px',
+      objectFit: 'contain'
+    };
 
     return (
-      <div className="bg-dark project text-light">
-        <h1 className="text-center pt-3 mb-5">Projects</h1>
-        <div className="container mb-5 d-flex">
+      <div className="container">
+        <div className="text-center">Projects</div>
+        <div className="container">
           <div className="col-md-4">
-            <div className="card box-shadow bg-secondary text-center">
+            <div className="card bg-secondary text-center">
               <img
+                className="card-img-top"
+                style={imgSize}
                 src="/images/memory.png"
-                className="card-img-top image-size mt-3"
               />
-              <div className="card-body">
+              <div className="card-body text-light">
                 <h5 className="card-title">One Piece Memory Match</h5>
-                <p className="card-text">
+                <div className="card-text">
                   A memory match game that is based on the popular Japanese
                   series &#34;One Piece&#34;. Developed with jQuery, HTML5,
                   CSS3, JavaScript,and Bootstrap.
-                </p>
+                </div>
                 <div className="card-text">
-                  <div className="btn bg-white mr-3 box-shadow">
+                  <div className="btn bg-white mr-3">
                     <a
                       className="text-dark"
                       href="https://github.com/vhuynhcao/one-piece-memory-match"
@@ -31,7 +36,7 @@ class Projects extends React.Component {
                       <i className="fab fa-github"></i> GitHub
                     </a>
                   </div>
-                  <div className="btn box-shadow bg-white">
+                  <div className="btn bg-white">
                     <a
                       className="text-dark"
                       href="https://memorymatch.vn-codes.com/"
@@ -47,19 +52,20 @@ class Projects extends React.Component {
           </div>
 
           <div className="col-md-4">
-            <div className="card box-shadow bg-secondary text-center">
+            <div className="card bg-secondary text-center">
               <img
+                className="card-img-top"
+                style={imgSize}
                 src="/images/simply.png"
-                className="card-img-top image-size mt-3"
               />
-              <div className="card-body">
+              <div className="card-body text-light">
                 <h5 className="card-title">Simply Creative</h5>
-                <p className="card-text">
+                <div className="card-text">
                   A full stack web application developed for crafters. Developed
                   with React.js, HTML5, CSS3, PHP, MySQL, and Bootstrap.
-                </p>
+                </div>
                 <div className="card-text">
-                  <div className="btn box-shadow bg-white mr-3">
+                  <div className="btn bg-white mr-3">
                     <a
                       className="text-dark"
                       href="https://github.com/vhuynhcao/simply-creative"
@@ -69,7 +75,7 @@ class Projects extends React.Component {
                       <i className="fab fa-github"></i> GitHub
                     </a>
                   </div>
-                  <div className="btn box-shadow bg-white">
+                  <div className="btn bg-white">
                     <a
                       className="text-dark"
                       href="https://simplycreative.vn-codes.com/"
@@ -85,20 +91,21 @@ class Projects extends React.Component {
           </div>
 
           <div className="col-md-4">
-            <div className="card box-shadow bg-secondary text-center">
+            <div className="card bg-secondary text-center">
               <img
+                className="card-img-top"
+                style={imgSize}
                 src="/images/spontaneously.png"
-                className="card-img-top image-size mt-3"
               />
-              <div className="card-body">
-                <h5 className="card-title">Spontaneous.ly</h5>
-                <p className="card-text">
+              <div className="card-body text-light">
+                <h5 className="card-title">Spontaneously</h5>
+                <div className="card-text">
                   A full stack web application developed for anyone feeling
                   adventurous. Developed with React.js, HTML5, CSS3, PHP, MySQL,
                   and Bootstrap.
-                </p>
+                </div>
                 <div className="card-text">
-                  <div className="btn box-shadow bg-white mr-3">
+                  <div className="btn bg-white mr-3">
                     <a
                       className="text-dark"
                       href="https://github.com/kevinakahoshi/spontaneous.ly"
@@ -108,7 +115,7 @@ class Projects extends React.Component {
                       <i className="fab fa-github"></i> GitHub
                     </a>
                   </div>
-                  <div className="btn box-shadow bg-white">
+                  <div className="btn bg-white">
                     <a
                       className="text-dark"
                       href="https://spontaneouslyapp.com/"

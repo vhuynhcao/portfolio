@@ -1,20 +1,33 @@
+@font-face{
+  font-family: Vellesa;
+  src: url(/Vellesa.otf);
+}
+
 body{
-  color: #333A40;
+  background-color: #333A40;
+  color: white;
 }
 
 .header {
   height: 5vh;
 }
 
+.font-vellesa{
+  font-family: Vellesa;
+  font-size: 3.5rem;
+}
+
 .banner{
   background-image: url(images/banner-img.jpg);
-  height: 90vh;
+  height: 100vh;
   background-size: cover;
   background-position: 0% 65%;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
 }
 
 .dev-icon{
-  font-size: 6rem;
+  font-size: 2rem;
 }
 
 .contact-info{
@@ -37,15 +50,30 @@ body{
 }
 
 .project{
-  height: 75vh;
+  height: 85vh;
+  -webkit-clip-path: polygon(0 0, 100% 9%, 100% 90%, 0 100%);
+  clip-path: polygon(0 0, 100% 9%, 100% 90%, 0 100%);
+}
+
+.skills{
+  height: 55vh;
 }
 
 .tools{
-  height: 65vh;
+  height: 75vh;
+  -webkit-clip-path: polygon(0 0, 100% 8%, 100% 90%, 0 100%);
+  clip-path: polygon(0 0, 100% 8%, 100% 90%, 0 100%);
 }
 
 .box-shadow{
   box-shadow: 0 8px 6px -6px black;
+}
+
+.name-text{
+  font-family: Vellesa;
+  font-size: 6rem;
+  margin-top: 20%;
+  margin-right: 5%;
 }
 
 @media screen and (max-height: 400px){
@@ -62,5 +90,9 @@ body{
   .banner{
     height: 88vh;
     background-position: 17%;
+  }
+
+  .about-me {
+    height: 80vh;
   }
 }
