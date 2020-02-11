@@ -8,7 +8,7 @@ class Projects extends React.Component {
     };
 
     return (
-      <div className="container project bg-light text-dark my-5 py-5 ">
+      <div className="project bg-light text-dark my-5 py-5">
         <div className="text-center font-vellesa">Projects</div>
         <div className="container d-flex flex-wrap">
           <div className="col-md-4 mb-5">
@@ -26,7 +26,7 @@ class Projects extends React.Component {
                   CSS3, JavaScript,and Bootstrap.
                 </div>
                 <div className="card-text">
-                  <div className="btn bg-white mr-3 box-shadow">
+                  <div className="btn bg-white mr-3 shadow">
                     <a
                       className="text-dark"
                       href="https://github.com/vhuynhcao/one-piece-memory-match"
@@ -36,7 +36,7 @@ class Projects extends React.Component {
                       <i className="fab fa-github"></i> GitHub
                     </a>
                   </div>
-                  <div className="btn bg-white box-shadow">
+                  <div className="btn bg-white shadow">
                     <a
                       className="text-dark"
                       href="https://memorymatch.vn-codes.com/"
@@ -65,7 +65,7 @@ class Projects extends React.Component {
                   with React.js, HTML5, CSS3, PHP, MySQL, and Bootstrap.
                 </div>
                 <div className="card-text">
-                  <div className="btn bg-white mr-3 box-shadow">
+                  <div className="btn bg-white mr-3 shadow">
                     <a
                       className="text-dark"
                       href="https://github.com/vhuynhcao/simply-creative"
@@ -75,7 +75,7 @@ class Projects extends React.Component {
                       <i className="fab fa-github"></i> GitHub
                     </a>
                   </div>
-                  <div className="btn bg-white box-shadow">
+                  <div className="btn bg-white shadow">
                     <a
                       className="text-dark"
                       href="https://simplycreative.vn-codes.com/"
@@ -105,7 +105,7 @@ class Projects extends React.Component {
                   and Bootstrap.
                 </div>
                 <div className="card-text">
-                  <div className="btn bg-white mr-3 box-shadow">
+                  <div className="btn bg-white mr-3 shadow">
                     <a
                       className="text-dark"
                       href="https://github.com/kevinakahoshi/spontaneous.ly"
@@ -115,7 +115,7 @@ class Projects extends React.Component {
                       <i className="fab fa-github"></i> GitHub
                     </a>
                   </div>
-                  <div className="btn bg-white box-shadow">
+                  <div className="btn bg-white shadow">
                     <a
                       className="text-dark"
                       href="https://spontaneouslyapp.com/"

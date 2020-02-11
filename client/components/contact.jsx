@@ -3,8 +3,8 @@ import React from 'react';
 class Contact extends React.Component {
   render() {
     return (
-      <div className="text-light">
-        <div className="text-center mb-5 pt-3 font-vellesa">Contact Me</div>
+      <div className="text-light my-5">
+        <div className="text-center font-vellesa">Contact Me</div>
 
         <div className="container container-md">
           <div className="d-flex flex-wrap justify-content-center pb-5 contact-info">
