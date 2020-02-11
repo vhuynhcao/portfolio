@@ -25,7 +25,7 @@ class Contact extends React.Component {
             </a>
           </div>
 
-          <div className="container d-flex justify-content-center align-items-center pb-5">
+          <div className="container d-flex justify-content-center align-items-center pb-5 link-icon">
             <a
               className="text-light"
               href="https://github.com/vhuynhcao"
