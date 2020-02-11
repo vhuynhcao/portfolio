@@ -3,7 +3,7 @@ import React from 'react';
 class Tools extends React.Component {
   render() {
     return (
-      <div className="bg-light text-dark tools my-5 py-5">
+      <div className="bg-light text-dark tools my-3 py-5">
         <div className="text-center font-vellesa">Tools</div>
         <div className="container dev-icon">
           <div className="container d-flex flex-wrap justify-content-between mb-5">

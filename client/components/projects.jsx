@@ -8,7 +8,7 @@ class Projects extends React.Component {
     };
 
     return (
-      <div className="project bg-light text-dark my-5 py-5">
+      <div className="project bg-light text-dark mt-5 py-5">
         <div className="text-center font-vellesa">Projects</div>
         <div className="container d-flex flex-wrap">
           <div className="col-md-4 mb-5">

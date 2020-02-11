@@ -3,7 +3,7 @@ import React from 'react';
 class Contact extends React.Component {
   render() {
     return (
-      <div className="text-light my-5">
+      <div className="text-light mb-5">
         <div className="text-center font-vellesa">Contact Me</div>
 
         <div className="container container-md">
