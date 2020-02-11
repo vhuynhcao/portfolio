@@ -10,7 +10,7 @@ import Contact from './contact';
 class App extends React.Component {
   render() {
     return (
-      <>
+      <div>
         <Header/>
         <Banner/>
         <AboutMe/>
@@ -18,7 +18,7 @@ class App extends React.Component {
         <Skills/>
         <Tools/>
         <Contact/>
-      </>
+      </div>
     );
   }
 }

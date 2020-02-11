@@ -50,9 +50,9 @@ body{
 }
 
 .project{
-  height: 80vh;
-  -webkit-clip-path: polygon(0 0, 100% 7%, 100% 95%, 0 100%);
-  clip-path: polygon(0 0, 100% 7%, 100% 95%, 0 100%);
+  height: 85vh;
+  -webkit-clip-path: polygon(0 0, 100% 9%, 100% 90%, 0 100%);
+  clip-path: polygon(0 0, 100% 9%, 100% 90%, 0 100%);
 }
 
 .skills{
@@ -60,7 +60,7 @@ body{
 }
 
 .tools{
-  height: 70vh;
+  height: 75vh;
   -webkit-clip-path: polygon(0 0, 100% 8%, 100% 90%, 0 100%);
   clip-path: polygon(0 0, 100% 8%, 100% 90%, 0 100%);
 }
