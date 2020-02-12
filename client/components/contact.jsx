@@ -2,11 +2,15 @@ import React from 'react';
 
 class Contact extends React.Component {
   render() {
+    const date = new Date();
+    const currentYear = date.getFullYear();
+
     return (
-      <div className="text-light mb-5">
+      <div className="text-light mb-5 pt-3">
         <div className="text-center font-vellesa">Contact Me</div>
 
-        <div className="container container-md">
+        <div className="container">
+          <hr></hr>
           <div className="d-flex flex-wrap justify-content-center pb-5 contact-info">
             <i className="fas fa-map-marked-alt mr-1"></i>
             <span className="mr-4">Orange County, CA</span>
@@ -25,7 +29,7 @@ class Contact extends React.Component {
             </a>
           </div>
 
-          <div className="container d-flex justify-content-center align-items-center pb-5 link-icon">
+          <div className="container d-flex justify-content-center align-items-center link-icon">
             <a
               className="text-light"
               href="https://github.com/vhuynhcao"
@@ -51,6 +55,8 @@ class Contact extends React.Component {
               <i className="fas fa-file-pdf" />
             </a>
           </div>
+          <hr></hr>
+          <div className="text-center">&#169; Vicky Huynhcao {currentYear}</div>
         </div>
       </div>
     );

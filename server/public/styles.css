@@ -9,13 +9,18 @@ body{
 }
 
 .header {
-  height: 5vh;
+  height: 6vh;
 }
 
 .header-font{
   font-family: Vellesa;
   font-size: 1.5rem;
 }
+
+.cursor-pointer{
+  cursor: pointer;
+}
+
 
 .font-vellesa{
   font-family: Vellesa;
@@ -73,7 +78,7 @@ body{
 
 @media screen and (max-height: 400px){
   .header{
-    height: 8vh;
+    height: 10vh;
   }
 
   .name-text {
@@ -94,6 +99,8 @@ body{
     -webkit-clip-path: polygon(0 0, 100% 2%, 100% 97%, 0 100%);
     clip-path: polygon(0 0, 100% 2%, 100% 97%, 0 100%);
   }
+
+
 }
 
 @media screen and (max-width: 400px){
@@ -117,6 +124,10 @@ body{
   .project {
     -webkit-clip-path: polygon(0 0, 100% 2%, 100% 97%, 0 100%);
     clip-path: polygon(0 0, 100% 2%, 100% 97%, 0 100%);
+  }
+
+  .header-nav{
+    font-size: .8rem;
   }
 }
 
