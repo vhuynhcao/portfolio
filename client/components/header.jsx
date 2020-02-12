@@ -6,63 +6,65 @@ class Header extends React.Component {
     return (
       <>
         <nav className="navbar navbar-dark bg-dark text-light header sticky-top box-shadow">
-          <div className="header-font">
-            VH
-          </div>
+          <Link
+            to="banner"
+            smooth={true}
+            spy={true}
+            offset={-70}
+            duration={500}
+          >
+            <div className="header-font cursor-pointer">VH</div>
+          </Link>
           <div className="d-flex float-right justify-content-between">
-            <Link
-              to="banner"
-              smooth={true}
-              spy={true}
-              activeClass="active"
-              offset={-70}
-              duration={500}>
-              <i className="fas fa-circle mr-2"></i>
-            </Link>
             <Link
               to="about-me"
               smooth={true}
               spy={true}
-              activeClass="active"
+              activeClass="current-location"
               offset={-70}
-              duration={500}>
-              <i className="fas fa-circle mr-2"> </i>
+              duration={500}
+            >
+              <i className="fas fa-circle mr-2 cursor-pointer"> </i>
             </Link>
             <Link
-              to="projects"
+              to="project"
               smooth={true}
               spy={true}
-              activeClass="active"
+              activeClass="current-location"
               offset={-70}
-              duration={500}>
-              <i className="fas fa-circle mr-2"> </i>
+              duration={500}
+            >
+              <i className="fas fa-circle mr-2 cursor-pointer"> </i>
             </Link>
             <Link
               to="skills"
               smooth={true}
               spy={true}
-              activeClass="active"
+              activeClass="current-location"
               offset={-70}
-              duration={500}>
-              <i className="fas fa-circle mr-2"> </i>
+              duration={500}
+            >
+              <i className="fas fa-circle mr-2 cursor-pointer"> </i>
             </Link>
             <Link
               to="tools"
               smooth={true}
               spy={true}
-              activeClass="active"
+              activeClass="current-location"
               offset={-70}
-              duration={500}>
-              <i className="fas fa-circle mr-2"> </i>
+              duration={500}
+            >
+              <i className="fas fa-circle mr-2 cursor-pointer"> </i>
             </Link>
             <Link
-              to="contact"
+              to="tools"
               smooth={true}
               spy={true}
-              activeClass="active"
+              activeClass="current-location"
               offset={-70}
-              duration={500}>
-              <i className="fas fa-circle"></i>
+              duration={500}
+            >
+              <i className="fas fa-circle cursor-pointer"></i>
             </Link>
           </div>
         </nav>

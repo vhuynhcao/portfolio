@@ -17,6 +17,14 @@ body{
   font-size: 1.5rem;
 }
 
+.current-location{
+  color: black;
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}
+
 .font-vellesa{
   font-family: Vellesa;
   font-size: 3.5rem;
