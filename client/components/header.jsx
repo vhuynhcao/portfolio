@@ -66,7 +66,7 @@ class Header extends React.Component {
               <div className="cursor-pointer">Tools</div>
             </Link>
             <div className="mx-1">|</div>
-            <div onClick={this.scrollToTop} className="cursor-pointer">
+            <div onClick={this.scrollToBottom} className="cursor-pointer">
               Contact
             </div>
           </div>
