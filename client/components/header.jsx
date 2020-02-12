@@ -15,8 +15,13 @@ class Header extends React.Component {
     return (
       <>
         <nav className="navbar navbar-dark bg-dark header sticky-top box-shadow">
-          <div className="header-font cursor-pointer" onClick={this.scrollToTop}>VH</div>
-          <div className="d-flex float-right justify-content-between">
+          <div
+            className="header-font cursor-pointer"
+            onClick={this.scrollToTop}
+          >
+            VH
+          </div>
+          <div className="d-flex float-right justify-content-between header-nav">
             <Link
               to="about-me"
               smooth={true}
@@ -25,8 +30,9 @@ class Header extends React.Component {
               offset={-70}
               duration={500}
             >
-              <i className="fas fa-circle mr-2 cursor-pointer"> </i>
+              <div className="cursor-pointer">About Me</div>
             </Link>
+            <div className="mx-1">|</div>
             <Link
               to="project"
               smooth={true}
@@ -35,8 +41,9 @@ class Header extends React.Component {
               offset={-70}
               duration={500}
             >
-              <i className="fas fa-circle mr-2 cursor-pointer"> </i>
+              <div className="cursor-pointer">Projects</div>
             </Link>
+            <div className="mx-1">|</div>
             <Link
               to="skills"
               smooth={true}
@@ -45,8 +52,9 @@ class Header extends React.Component {
               offset={-70}
               duration={500}
             >
-              <i className="fas fa-circle mr-2 cursor-pointer"> </i>
+              <div className="cursor-pointer">Skills</div>
             </Link>
+            <div className="mx-1">|</div>
             <Link
               to="tools"
               smooth={true}
@@ -55,14 +63,12 @@ class Header extends React.Component {
               offset={-70}
               duration={500}
             >
-              <i className="fas fa-circle mr-2 cursor-pointer"> </i>
+              <div className="cursor-pointer">Tools</div>
             </Link>
-            <Link to="skill" activeClass="active">
-              <i
-                className="fas fa-circle cursor-pointer"
-                onClick={this.scrollToBottom}
-              ></i>
-            </Link>
+            <div className="mx-1">|</div>
+            <div onClick={this.scrollToTop} className="cursor-pointer">
+              Contact
+            </div>
           </div>
         </nav>
       </>

@@ -62,7 +62,7 @@ class AboutMe extends React.Component {
             </p>
             <p>
               I am knowledgeable in JavaScript, jQuery, React.js, PHP, MySQL,
-              HTML, and CSS. My projects include a variety of tools I have
+              HTML, CSS, and Bootstrap. My projects include a variety of tools I have
               utilized such as GitHub, Webpack, and npm. I had the most
               wonderful opportunity to work not only by myself, but as part of a
               team in multiple group projects to develop full stack
