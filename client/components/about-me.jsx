@@ -15,14 +15,10 @@ class AboutMe extends React.Component {
           </div>
           <div className="col-md-8">
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
+              My name is Vicky Huynhcao and I am a Full Stack Developer who has a passion and desire to code and design. I possess an eagerness and willingness to learn more languages to expand my knowledge of the tech industry.
             </p>
+            <p>I am knowledgeable in JavaScript, jQuery, React.js, PHP, MySQL, HTML, and CSS. My projects include a variety of tools I have utilized such as GitHub, Webpack, and npm. I had the most wonderful opportunity to work not only by myself, but as part of a team in multiple group projects to develop full stack applications.</p>
+            <p>My goal is to bring my background and expertise in customer service into a team to help satisfy clients with any and all requests they may have for their products.</p>
           </div>
         </div>
       </div>
