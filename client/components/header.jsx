@@ -57,7 +57,7 @@ class Header extends React.Component {
             >
               <i className="fas fa-circle mr-2 cursor-pointer"> </i>
             </Link>
-            <Link to="tools" activeClass="active">
+            <Link to="skill" activeClass="active">
               <i
                 className="fas fa-circle cursor-pointer"
                 onClick={this.scrollToBottom}
